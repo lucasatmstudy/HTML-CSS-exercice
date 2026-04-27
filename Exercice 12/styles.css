@@ -1,0 +1,14 @@
+table {
+    border-collapse: collapse;
+    border: double 5px blueviolet;
+}
+caption {
+    color: pink
+}
+th {
+    background-color: lightblue;
+}
+th, td {
+    border: solid black 3px;
+    text-align: center;
+}

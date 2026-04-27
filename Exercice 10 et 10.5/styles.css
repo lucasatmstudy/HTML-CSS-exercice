@@ -1,0 +1,26 @@
+div, p {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+div:nth-child(1) {
+    background-image:linear-gradient(to bottom left, red,green,blue)
+}
+div:nth-child(2) {
+    background-image:linear-gradient(-70deg, yellow 0%, purple 25%)
+}
+/* les % représente le depart de chaque couleur, donc si il élement doit prendre 75% on ne va pas écrit 75% mais le faire demarer a 25% pour qu'il utilise les 75% restant */
+p {
+    background-image:linear-gradient(rgba(255,255,255,50%),rgba(0,0,0,50%));
+}
+div:nth-child(4) {
+    background-image:radial-gradient(circle at center, lightblue, red);
+}
+div:nth-child(5) {
+    background-image:repeating-radial-gradient(black,white 10px)
+}
+div:nth-child(5):hover {
+    background-image:repeating-radial-gradient(white,black 10px)
+}

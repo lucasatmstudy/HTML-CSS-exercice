@@ -1,0 +1,30 @@
+h1 {
+    color: red;
+    text-align: center;
+    font-size: xx-large;
+}
+h3 {
+    color: blue;
+    font-size: x-large;
+}
+article:not(#carnivore)  {
+    background-color: gray;
+}
+strong {
+    font-weight : normal;
+    color: greenyellow;
+}
+em {
+    font-style : normal;
+    text-decoration: underline;
+    color: orange;
+    font-size:medium;
+}
+#herbivore h3 {
+    color: green;
+    text-align: right;
+    text-decoration: underline;
+}
+#carnivore p {
+    background-color: pink;
+}

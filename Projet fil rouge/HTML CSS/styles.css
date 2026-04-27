@@ -1,0 +1,12 @@
+header,main,footer {
+    max-width: 1300px;
+    height: 100px;
+    position: center;
+    margin: auto
+}
+header {
+    display:flex;
+    flex-direction: row;
+    color: #9E5705;
+    text
+}

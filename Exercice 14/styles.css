@@ -1,0 +1,25 @@
+p {
+    background-color: lightgray;
+    border: green, 2px, solid;
+}
+#un {
+    height: 100px;
+    padding: 20px;
+    margin: 0px;
+}
+#deux {
+    width: 50%;
+    padding: 1.2em;
+    margin: 20px 5px 20px 5px;
+}
+#trois {
+    height: 200px;
+    width: 200px;
+    padding: -30px;
+    margin: auto;
+}
+body {
+    background-color: purple;
+    padding: 0px;
+    margin: 0px;
+}

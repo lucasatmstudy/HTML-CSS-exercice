@@ -1,0 +1,46 @@
+form {
+    background-color: lightgray;
+    height: 250px;
+    width: 400px;
+    border: black, 1px, solid;
+}
+h1 {
+    text-align: center;
+}
+button {
+    background-color: white;
+    border: black, 1px, solid;
+}
+.bouton {
+   text-align: center; 
+}
+button:hover {
+    background-color: black;
+    border: white, 1px, solid;
+    color: white;
+}
+div {
+    margin: 10px 0px;
+    padding: 5px 0px 5px 30px;
+}
+#pseudo, #mdp {
+    margin-left: 20px;
+}
+#moi {
+    margin-right: 10px;
+}
+h1 {
+    background-color: green;
+}
+#champsID {
+    background-color: red;
+}
+#champsmdp {
+    background-color: blue;
+}
+#souvenir {
+    background-color: purple;
+}
+.bouton {
+    background-color: yellow;
+}
