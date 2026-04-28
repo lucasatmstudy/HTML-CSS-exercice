@@ -4,9 +4,14 @@ header,main,footer {
     position: center;
     margin: auto
 }
-header {
+nav {
     display:flex;
     flex-direction: row;
-    color: #9E5705;
-    text
+    justify-content: space-evenly;
+    align-items: center;
+}
+a {
+    color: #9e5705;
+    text-decoration: none;
+    font-family: arial;
 }
