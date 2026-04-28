@@ -14,41 +14,10 @@ nav {
 ul {
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    text-align: center;
 }
-#un {
-    grid-row: 1;
-    grid-column: 1;
-}
-#deux {
-    grid-row: 1;
-    grid-column: 2;
-}
-#trois {
-    grid-row: 1;
-    grid-column: 3;
-}
-#quatre {
-    grid-row: 1;
-    grid-column: 4;
-}
-#cinq {
-    grid-row: 1;
-    grid-column: 5;
-}
+
 main {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
 }
-#premier {
-    grid-row: 1;
-    grid-column: 1;
-}
-#deuxième {
-    grid-row: 1;
-    grid-column: 2;
-}
-#troisième {
-    grid-row: 1;
-    grid-column: 3;
-}
+
