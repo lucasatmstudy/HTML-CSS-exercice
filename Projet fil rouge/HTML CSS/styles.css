@@ -1,5 +1,5 @@
 header,main,footer {
-    max-width: 1300px;
+    max-width: 1800px;
     height: 100px;
     position: center;
     margin: auto
@@ -13,5 +13,14 @@ nav {
 a {
     color: #9e5705;
     text-decoration: none;
-    font-family: arial;
+    font-family: 'LexendEB';
+    font-size: 24px;
+}
+@font-face {
+    font-family: 'LexendEB';
+    src: url(./asset/police/Lexend/Lexend-Bold.ttf) format('truetype');
+}
+p:hover {
+    background-color: #9e5705;
+    color: #F5F5F5;
 }

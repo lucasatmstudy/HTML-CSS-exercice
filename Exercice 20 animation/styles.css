@@ -1,0 +1,40 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    align-items: center;
+    padding-top: 50px;
+}
+#Evolution {
+    width: 800px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+#Evolution:hover {
+    transform: scale(1.2);
+}
+#Dame {
+    animation-name: imageswitch;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0,0,.87,1.35);
+}
+
+/* @keyframes abcde {
+    0% {transform: rotate(0deg); }
+    10% {transform: rotate(360deg); }
+    20% {transform: translateX(50px); }
+    30% {transform: scale(1.5); }
+    40% {transform: img;
+} */
+@keyframes imageswitch {
+    0% {content: url(./assets/image/1\ -\ Copie.jpg); transform: rotate(0deg); transform: scale(1.2);}
+    16% {content: url(./assets/image/2\ -\ Copie.jpg); transform: rotate(16deg); transform: scale(1.5);}
+    30% {content: url(./assets/image/3\ -\ Copie.jpg);}
+    45% {content: url(./assets/image/4\ -\ Copie.jpg);}
+    60% {content: url(./assets/image/5\ -\ Copie.jpg);}
+    75% {content: url(./assets/image/6\ -\ Copie.jpg);}
+    100% {content: url(./assets/image/7\ -\ Copie.jpg);}
+}
