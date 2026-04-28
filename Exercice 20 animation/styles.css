@@ -30,11 +30,11 @@ main {
     40% {transform: img;
 } */
 @keyframes imageswitch {
-    0% {content: url(./assets/image/1\ -\ Copie.jpg); transform: rotate(0deg); transform: scale(1.2);}
-    16% {content: url(./assets/image/2\ -\ Copie.jpg); transform: rotate(16deg); transform: scale(1.5);}
-    30% {content: url(./assets/image/3\ -\ Copie.jpg);}
-    45% {content: url(./assets/image/4\ -\ Copie.jpg);}
-    60% {content: url(./assets/image/5\ -\ Copie.jpg);}
-    75% {content: url(./assets/image/6\ -\ Copie.jpg);}
-    100% {content: url(./assets/image/7\ -\ Copie.jpg);}
+    0% {content: url(./assets/image/1\ -\ Copie.jpg); transform: rotate(0deg) scale(1.1);}
+    16% {content: url(./assets/image/2\ -\ Copie.jpg); transform: rotate(16deg) scale(1.2);}
+    30% {content: url(./assets/image/3\ -\ Copie.jpg); transform: rotate(30deg) scale(1.3);}
+    45% {content: url(./assets/image/4\ -\ Copie.jpg); transform: rotate(45deg) scale(1.4);}
+    60% {content: url(./assets/image/5\ -\ Copie.jpg); transform: rotate(60deg) scale(1.5);}
+    75% {content: url(./assets/image/6\ -\ Copie.jpg); transform: rotate(75deg) scale(1.6);}
+    100% {content: url(./assets/image/7\ -\ Copie.jpg); transform: rotate(100deg) scale(1.7);}
 }
