@@ -35,3 +35,11 @@ a:hover:not(#logo, #logotext) {
     color: #F5F5F5;
     transform: scale(1.2);
 }
+@media (max-width: 768px) {
+    header {
+        background-color: rgb(25, 62, 85);
+    }
+    #logotext {
+        display:none;
+    }
+}
